@@ -6,7 +6,7 @@
 
 作者: 阿凯|Kyle
 
-邮箱: xingshunkai@qq.com
+邮箱: kyle.xing@fashionstar.com.hk
 
 更新时间: 2020 / 04 / 23
 
@@ -137,7 +137,7 @@ void loop(){
  * 机械臂阻尼模式与原始角度回读 
  * --------------------------
  * 作者: 阿凯|Kyle
- * 邮箱: xingshunkai@qq.com
+ * 邮箱: kyle.xing@fashionstar.com.hk
  * 更新时间: 2020/05/14
  */
 #include <SoftwareSerial.h>
@@ -311,7 +311,7 @@ arm.home();
  * 机械臂末端移动到Home的位置
  * --------------------------
  * 作者: 阿凯|Kyle
- * 邮箱: xingshunkai@qq.com
+ * 邮箱: kyle.xing@fashionstar.com.hk
  * 更新时间: 2020/04/23
  */
 
@@ -392,7 +392,7 @@ arm.wait();            // 等待舵机旋转到目标位置
  * 设置机械臂关节的角度
  * --------------------------
  * 作者: 阿凯|Kyle
- * 邮箱: xingshunkai@qq.com
+ * 邮箱: kyle.xing@fashionstar.com.hk
  * 更新时间: 2020/04/23
  */
 #include "FashionStar_Arm4DoF.h"
@@ -487,7 +487,7 @@ arm.forwardKinematics(thetas, &toolPosi);
  * 测试机械臂正向运动学
  * --------------------------
  * 作者: 阿凯|Kyle
- * 邮箱: xingshunkai@qq.com
+ * 邮箱: kyle.xing@fashionstar.com.hk
  * 更新时间: 2020/04/23
  */
 #include <SoftwareSerial.h>
@@ -605,7 +605,7 @@ FSARM_STATUS code = arm.inverseKinematics(toolPosi, &thetas);
  * 测试机械臂逆向运动学
  * --------------------------
  * 作者: 阿凯|Kyle
- * 邮箱: xingshunkai@qq.com
+ * 邮箱: kyle.xing@fashionstar.com.hk
  * 更新时间: 2020/04/23
  */
 
@@ -725,7 +725,7 @@ arm.wait()
  * 测试机械臂点控, 从一个点运动到另外一个点
  * --------------------------
  * 作者: 阿凯|Kyle
- * 邮箱: xingshunkai@qq.com
+ * 邮箱: kyle.xing@fashionstar.com.hk
  * 更新时间: 2020/04/23
  */
 #include "FashionStar_Arm4DoF.h"
@@ -789,7 +789,7 @@ FSARM_STATUS line(float tx, float ty, float tz)
  * 测试机械臂直线插补测试
  * --------------------------
  * 作者: 阿凯|Kyle
- * 邮箱: xingshunkai@qq.com
+ * 邮箱: kyle.xing@fashionstar.com.hk
  * 更新时间: 2020/05/14
  */
 #include "FashionStar_Arm4DoF.h"
@@ -849,7 +849,7 @@ arm.pump.off(); // 气泵关闭
  * 气泵控制 
  * --------------------------
  * 作者: 阿凯|Kyle
- * 邮箱: xingshunkai@qq.com
+ * 邮箱: kyle.xing@fashionstar.com.hk
  * 更新时间: 2020/04/23
  */
 #include "FashionStar_Arm4DoF.h"
@@ -907,7 +907,7 @@ void grab(float x1, float y1, float z1, float x2, float y2, float z2);
  * 将物块从一个位置移动到另外一个位置
  * --------------------------
  * 作者: 阿凯|Kyle
- * 邮箱: xingshunkai@qq.com
+ * 邮箱: kyle.xing@fashionstar.com.hk
  * 更新时间: 2020/05/14
  */
 #include "FashionStar_Arm4DoF.h"
@@ -1002,7 +1002,7 @@ void loop(){
  * 机械臂通过Pixy2进行物块抓取
  * --------------------------
  * 作者: 阿凯|Kyle
- * 邮箱: xingshunkai@qq.com
+ * 邮箱: kyle.xing@fashionstar.com.hk
  * 更新时间: 2020/04/23
  */
 #include <Pixy2.h>
@@ -1290,7 +1290,7 @@ void loop()
  * 3. AD按键扫描只在机械臂空闲的时候有效.
  * --------------------------
  * 作者: 阿凯|Kyle
- * 邮箱: xingshunkai@qq.com
+ * 邮箱: kyle.xing@fashionstar.com.hk
  * 更新时间: 2020/06/11
  */
 #include <Pixy2.h>
@@ -1781,7 +1781,7 @@ void loop()
  * 通过卡片来选择要抓取的色块的颜色
  * --------------------------
  * 作者: 阿凯|Kyle
- * 邮箱: xingshunkai@qq.com
+ * 邮箱: kyle.xing@fashionstar.com.hk
  * 更新时间: 2020/06/09
  */
 #include <Pixy2.h>

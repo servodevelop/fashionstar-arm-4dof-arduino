@@ -3,7 +3,7 @@
  * 通过卡片来选择要抓取的色块的颜色
  * --------------------------
  * 作者: 阿凯|Kyle
- * 邮箱: xingshunkai@qq.com
+ * 邮箱: kyle.xing@fashionstar.com.hk
  * 更新时间: 2020/06/09
  */
 #include <Pixy2.h>

@@ -7,7 +7,7 @@
  * 3. AD按键扫描只在机械臂空闲的时候有效.
  * --------------------------
  * 作者: 阿凯|Kyle
- * 邮箱: xingshunkai@qq.com
+ * 邮箱: kyle.xing@fashionstar.com.hk
  * 更新时间: 2020/06/11
  */
 #include <Pixy2.h>

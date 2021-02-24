@@ -4,7 +4,7 @@
  * 使用高斯分布进行卡片颜色的判别
  * --------------------------
  * 作者: 阿凯|Kyle
- * 邮箱: xingshunkai@qq.com
+ * 邮箱: kyle.xing@fashionstar.com.hk
  * 更新时间: 2020/08/13
  */
 #include <Pixy2.h>
